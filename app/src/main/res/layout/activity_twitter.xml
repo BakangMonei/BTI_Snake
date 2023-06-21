@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/twitterLayout"
+        android:layout_width="match_parent"
+        android:layout_height="565dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Sky_blue"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="411dp"
+            android:layout_height="84dp"
+            android:background="@color/Sky_blue"
+            android:padding="100dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:src="@drawable/twitter" />
+
+        <EditText
+            android:id="@+id/twitterUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/twittershape"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:hint="Phone Number, Email or Username"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/twitterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/twittershape"
+            android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Sky_blue" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/twitterLayout"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:padding="16dp"
+        android:shadowRadius="@integer/material_motion_duration_short_2"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="@color/Sky_blue" />
+
+    <TextView
+        android:id="@+id/signuptwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginTwitter"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:shadowRadius="@integer/material_motion_duration_short_2"
+        android:text="New to Twitter?? Sign Up Now"
+        android:textColor="@color/Sky_blue"
+        android:textStyle="bold" />
+</RelativeLayout>

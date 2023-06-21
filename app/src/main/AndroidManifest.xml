@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BreakingTheIce"
+        tools:targetApi="31" >
+        <activity
+            android:name=".Utilities.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".IndexActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Utilities.SMSActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Utilities.GroupChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Utilities.EmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Utilities.DownloadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Utilities.ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Utilities.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Utilities.CallsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Utilities.AboutBTIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type5Trouble.AddictionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type4Health.HealActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type3Family.FamilyIssuesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.SchizophreniaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.PTSDActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.PsychosisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.EatingDisorderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.DysthymiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.DimentiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.DepressionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.BodelineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.BipolarDisorderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.AutismActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.AnxietyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type2MentalHealth.ADHDActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Type1Abuse.AbusingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SocialMedia.Twitter"
+            android:exported="false" />
+        <activity
+            android:name=".SocialMedia.Instagram"
+            android:exported="false" />
+        <activity
+            android:name=".SocialMedia.Google"
+            android:exported="false" />
+        <activity
+            android:name=".SocialMedia.Facebook"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralMentalHealth.TypesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralMentalHealth.TroubleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralMentalHealth.MentalHealthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralMentalHealth.HealingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralMentalHealth.FamilyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralMentalHealth.AbuseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseActivities.UpdateMemberDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseActivities.signUp"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseActivities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseActivities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseActivities.MemberDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseActivities.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseActivities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseActivities.LauncherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseActivities.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseActivities.EditProfilePage"
+            android:exported="false" />
+        <activity
+            android:name=".Administrators.AdministratorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

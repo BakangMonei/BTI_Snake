@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/aboutBTI"
+        android:title="About_bti" />
+    <item
+        android:id="@+id/calls"
+        android:title="Calls" />
+    <item
+        android:id="@+id/Camera"
+        android:title="Camera" />
+    <item
+        android:id="@+id/contactUs"
+        android:title="Contact us" />
+    <item
+        android:id="@+id/test"
+        android:title="Mental Health Test" />
+    <item
+        android:id="@+id/Email"
+        android:title="Email" />
+    <item
+        android:id="@+id/GroupChats"
+        android:title="Group Chat" />
+    <item
+        android:id="@+id/Profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/sendSMS"
+        android:title="SMS" />
+    <item
+        android:id="@+id/exitBtn"
+        android:title="Exit" />
+    <item
+        android:id="@+id/LogOut"
+        android:title="LogOut" />
+</menu>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1015029503744",
+    "firebase_url": "https://bti-68092-default-rtdb.firebaseio.com",
+    "project_id": "bti-68092",
+    "storage_bucket": "bti-68092.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015029503744:android:613d732cdb24f06d69c5e5",
+        "android_client_info": {
+          "package_name": "com.neizathedev.breakingtheice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015029503744-lb21riamk0onphffj2cvm9rg48rahj1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwsj09Zh3vYl_DGbqqBvBVOm7zBMwpX9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015029503744-lb21riamk0onphffj2cvm9rg48rahj1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015029503744:android:018721943968896b69c5e5",
+        "android_client_info": {
+          "package_name": "com.neizathedev.bti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015029503744-lb21riamk0onphffj2cvm9rg48rahj1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwsj09Zh3vYl_DGbqqBvBVOm7zBMwpX9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015029503744-lb21riamk0onphffj2cvm9rg48rahj1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
